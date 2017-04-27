@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Film Library</string>
+    <string name="title_activity_biblioteca_peliculas">Film Library</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_buscar">Search</string>
+    <string name="action_nuevo">New</string>
+    <string name="app_label">Film Library</string>
+    <string name="search_hint">Search Title</string>
+    <string name="buscar_por_t_tulo">Search Title</string>
+    <string name="dar_de_alta">Add a new film</string>
+    <string name="mostrar_todas">Show all films</string>
+    <string name="ayuda">Help</string>
+    <string name="about">About</string>
+    <string name="inicio">Home</string>
+    <string name="sin_resultados">No results</string>
+    <string name="set_rating">Set rating</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="rate">Rate</string>
+    <string name="cancel">Cancel</string>
+    <string name="rating">Rating</string>
+    <string name="search">Search</string>
+    <string name="search_actor_actress">Search Actor/Actress</string>
+    <string name="search_for_film_title">Search Title</string>
+</resources>

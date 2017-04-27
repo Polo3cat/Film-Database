@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicio"
+            android:title="@string/inicio"
+            android:icon="@drawable/ic_inicio" />
+        <item
+            android:id="@+id/todas_año"
+            android:title="@string/mostrar_todas"
+            android:icon="@drawable/ic_ordenar_fecha" />
+        <item
+            android:id="@+id/donar_alta"
+            android:title="@string/dar_de_alta"
+            android:icon="@drawable/ic_dar_alta" />
+        <item
+            android:id="@+id/cerca_titol"
+            android:title="@string/buscar_por_t_tulo"
+            android:icon="@drawable/ic_buscar" />
+        <item
+            android:id="@+id/cerca_actor"
+            android:title="@string/search_actor_actress"
+            android:icon="@drawable/ic_busca_actor" />
+        <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/help"
+                    android:title="@string/ayuda"
+                    android:icon="@drawable/ic_help"/>
+                <item
+                    android:id="@+id/about"
+                    android:title="@string/about"
+                    android:icon="@drawable/ic_about"/>
+        </group>
+    </group>
+</menu>

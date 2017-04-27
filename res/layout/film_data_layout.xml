@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical" android:layout_height="wrap_content"
+    android:padding="7dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_view"
+        android:longClickable="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Title:"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:id="@+id/title_tx" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Title"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:id="@+id/title" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Director:"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:id="@+id/director_tx" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Name"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:id="@+id/director" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Country:"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:id="@+id/country_tx" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Name"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="36dp"
+                    android:id="@+id/country" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Year:"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:id="@+id/year_tx" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Name"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="56dp"
+                    android:id="@+id/year" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Protagonist:"
+                    android:layout_marginLeft="6dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/protagonist_tx" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Name"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_marginLeft="12dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/protagonist" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Critics Rate:"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:id="@+id/critics_rate_tx" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Name"
+                    android:layout_marginLeft="13dp"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/critics_rate" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
